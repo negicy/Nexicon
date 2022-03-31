@@ -2,7 +2,7 @@
 layout: post
 author: kanta
 category: works
-permalink: /Nexicon/:path
+
 ---
 Phyto-communicatorは「植物の世話に途中で飽きてしまう」という問題を解決するためのIOTデバイス。  
 * お世話の継続度がゲームのように評価され、楽しくモチベーションを維持できる
