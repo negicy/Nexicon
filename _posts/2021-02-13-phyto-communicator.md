@@ -18,5 +18,5 @@ Phyto-communicatorは「植物の世話に途中で飽きてしまう」とい�
 * デモ動画はこちら: [https://youtu.be/CCprRD1k9mY](https://youtu.be/CCprRD1k9mY)
 
 ## 外観
-![zentai](/public/img/phyto-communicator/zentai.png)
-![above](/public/img/phyto-communicator/above.jpeg)
+![zentai]({{ site.baseurl }}/public/img/phyto-communicator/zentai.png)
+![above]({{ site.baseurl }}/public/img/phyto-communicator/above.jpeg)
