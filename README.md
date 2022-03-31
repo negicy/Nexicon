@@ -9,5 +9,5 @@ permalink: /about/
 根岸 寛太(Negishi Kanta)  
 e-mail: kanta.negishi.2021b[at]mlab.info  
 
-![alt text](/public/img/IMG_4462.png)
+![alt text]({{ site.baseurl }}/public/img/IMG_4462.png)
 
