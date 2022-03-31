@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Works
-
+permalink: /works/
 ---
 <h1>Latest Works</h1>
 
@@ -9,7 +9,7 @@ title: Works
   {% for post in site.posts %}
     {% if post.category == "works" %}
     <li>
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}
     </li>
     {% endif %}
