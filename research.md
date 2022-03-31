@@ -14,7 +14,7 @@ permalink: /research/
 
 # テーマ1: 仕事の品質と労働負荷分散を両立したタスク割り当て手法
 
-![backgrounds](/public/img/research/background.png)  
+![backgrounds]({{ site.baseurl }}/public/img/research/background.png)  
 
 ![backgrounds](/public/img/research/RQ.png)  
 
