@@ -1,28 +1,9 @@
-<article class="post">
-  <header class="post-header home">
-    <div class="post-title">Updates</div>
-  </header>
-  <div class="post-content">
-    {%- if site.posts.size > 0 -%}
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-    <li class="post-list-item">
-      <!-- {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%} -->
-      {%- assign date_format = "%Y/%m/%d" -%}
-      <span class="post-date">{{ post.date | date: date_format }}</span>
-      <a class="post-link" href="{{ site.baseurl }}/{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-  </a>
-      {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
-    </li>
-    {%- endfor -%}
-  </ul>
-  {%- endif -%}
-  </div>
-  </article>
-  
-  </div>
-  <p>
+---
+layout: page
+title: About
+permalink: /about/
+---
+<p>
     筑波大学 大学院 人間総合科学研究群・研究科 情報学学位プログラム<br>
     融合知能デザイン研究室<br>
     根岸 寛太(Negishi Kanta)<br>
@@ -43,7 +24,4 @@
     <br><br>
 <p><img src="/public/img/IMG_4462.png" alt="new" /></p>
 </div>
-
-
-
 
