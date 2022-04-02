@@ -2,6 +2,7 @@
   <header class="post-header home">
     <div class="post-title">Updates</div>
   </header>
+
   <div class="post-content">
     {%- if site.posts.size > 0 -%}
   <ul class="post-list">
@@ -11,7 +12,7 @@
       {%- assign date_format = "%Y/%m/%d" -%}
       <span class="post-date">{{ post.date | date: date_format }}</span>
       <a class="post-link" href="{{ site.baseurl }}/{{ post.url | relative_url }}">
-        {{ post.title | escape }}
+        {{ post.title | escape }} [{{ post.category }}]
   </a>
       {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
     </li>
@@ -20,29 +21,31 @@
   {%- endif -%}
   </div>
   </article>
+    <p>
+      筑波大学 大学院 人間総合科学研究群・研究科 情報学学位プログラム<br>
+      融合知能デザイン研究室<br>
+      根岸 寛太(Negishi Kanta)<br>
+      e-mail: kanta.negishi.2021b [at] mlab.info
+  </p>
+  <h3>3つの価値の実現に取り組みます:</h3>  
+  <ul>
+  <li>道具的価値: Develop</li>
+  <a href="https://neginex.github.io/Nexicon/works/2021/02/13/phyto-communicator.html">Phyto-communicator</a> | 
+  <a href="https://neginex.github.io/Nexicon/works/2021/02/03/wadachi.html">Wadachi</a> |
+  <a href="https://neginex.github.io/Nexicon/works/2021/02/02/berrypick.html">Berrypick</a>
+
+  <li>学術的価値: Research</li>
+  <a href="https://neginex.github.io/Nexicon/research/">労働プラットフォームにおける人間と計算機の協働</a>
+  <li>鑑賞的価値: Create</li>
+  </ul>
+  <div class="profile">
+      <br><br>
+  <p><img src="{{ site.baseurl }}/public/img/IMG_4462.png" alt="new" /></p>
+  </div>
   
   </div>
-  <p>
-    筑波大学 大学院 人間総合科学研究群・研究科 情報学学位プログラム<br>
-    融合知能デザイン研究室<br>
-    根岸 寛太(Negishi Kanta)<br>
-    e-mail: kanta.negishi.2021b [at] mlab.info
-</p>
-<h3>3つの価値の実現に取り組みます:</h3>  
-<ul>
-<li>道具的価値: Develop</li>
-<a href="https://neginex.github.io/Nexicon/works/2021/02/13/phyto-communicator.html">Phyto-communicator</a> | 
-<a href="https://neginex.github.io/Nexicon/works/2021/02/03/wadachi.html">Wadachi</a> |
-<a href="https://neginex.github.io/Nexicon/works/2021/02/02/berrypick.html">Berrypick</a>
 
-<li>学術的価値: Research</li>
-<a href="https://neginex.github.io/Nexicon/research/">労働プラットフォームにおける人間と計算機の協働</a>
-<li>鑑賞的価値: Create</li>
-</ul>
-<div class="profile">
-    <br><br>
-<p><img src="/public/img/IMG_4462.png" alt="new" /></p>
-</div>
+
 
 
 
