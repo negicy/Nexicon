@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Works
-permalink: /works/
+title: Posts
+permalink: /posts/
 ---
-<h1>Latest Works</h1>
+
 
 <ul>
   {% for post in site.posts %}
-    {% if post.category == "works" %}
+    {% if post.category == "posts" %}
     <li>
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}

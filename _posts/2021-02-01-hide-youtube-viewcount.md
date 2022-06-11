@@ -1,7 +1,7 @@
 ---
 layout: post
 author: kanta
-category: works
+category: posts
 ---
 
 「hide-youtube-viewcount」:  
