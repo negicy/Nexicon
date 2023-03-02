@@ -1,7 +1,7 @@
 ---
 layout: post
 author: kanta
-category: posts
+category: limited
 ---
 
 berrypickは文献情報を記録するwebアプリケーションです。
