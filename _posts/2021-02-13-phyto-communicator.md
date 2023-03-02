@@ -1,7 +1,7 @@
 ---
 layout: post
 author: kanta
-category: posts
+category: limited
 permalink: /:path
 ---
 Phyto-communicatorは「植物の世話に途中で飽きてしまう」という問題を解決するためのIOTデバイス。  
