@@ -4,3 +4,10 @@ author: kanta
 category: posts
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vV9sZz4Pb_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
+  
+作詞・作曲: chatGPT  
+読み上げ: 音読さん  
+
+Macbookに触れるとprocessingサーバを介してsonicPiにOSC信号が送信され， 音が出るようになっています。
