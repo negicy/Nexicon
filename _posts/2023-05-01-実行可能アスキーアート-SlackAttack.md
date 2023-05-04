@@ -9,4 +9,4 @@ Slackの通知音で作ってみました。
 サンプリングされた音声と，アスキーアートで表現された図形・記号を関連付けできるのが  
 面白いポイントだと思います。
 
-source code: https://github.com/negicy/ascii-art-with-sounds/blob/main/slack-attack.rb
+source code: [https://github.com/negicy/ascii-art-with-sounds/blob/main/slack-attack.rb](https://github.com/negicy/ascii-art-with-sounds/blob/main/slack-attack.rb)
